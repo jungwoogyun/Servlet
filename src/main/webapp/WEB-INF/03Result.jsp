@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+<h1>Result.JSP</h1>
+
+Email : <%=request.getParameter("email") %><br>
+PW : <%=request.getParameter("pwd") %><br>
+Addr1 : <%=request.getParameter("addr1") %><br>
+Addr2 : <%=request.getParameter("addr2") %>
 
 </body>
 </html>
